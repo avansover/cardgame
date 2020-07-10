@@ -45,7 +45,7 @@ export default class WarRoom extends Component {
 
         this.setState({ cardInd: tempCardInd })
 
-        if (this.state.cardInd === 3) {
+        if (this.state.cardInd === 25) {
 
             console.log(tempCompPoints);
             console.log(tempPlayerPoints);
